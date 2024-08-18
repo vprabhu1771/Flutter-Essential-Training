@@ -1,4 +1,4 @@
-# Chapter 2 - Download and Install Visual Studio Code
+# 2 - Download and Install Visual Studio Code
  
 ![Image](1.PNG)
 

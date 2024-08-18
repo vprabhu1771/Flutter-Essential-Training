@@ -1,4 +1,4 @@
-# Chapter 1 - Download and Install Visual Studio
+# 1 - Download and Install Visual Studio
  
 ![Image](1.PNG)
 

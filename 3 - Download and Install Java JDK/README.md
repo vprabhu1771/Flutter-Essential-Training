@@ -1,4 +1,4 @@
-# Chapter 3 - Download and Install Java JDK
+# 3 - Download and Install Java JDK
  
 ![Image](1.PNG)
 

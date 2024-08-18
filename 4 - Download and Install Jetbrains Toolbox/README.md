@@ -1,4 +1,4 @@
-# Chapter 4 - Download and Install Jetbrains Toolbox
+# 4 - Download and Install Jetbrains Toolbox
  
 ![Image](1.PNG)
 
