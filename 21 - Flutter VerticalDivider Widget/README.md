@@ -6,7 +6,7 @@ As of my last knowledge update in January 2022, Flutter's `VerticalDivider` widg
 
 Here's a basic example of how you can use the `VerticalDivider` widget:
 
-
+```
 import 'package:flutter/material.dart';
 
 void main() {
@@ -46,7 +46,7 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
+```
 
 In this example, a `Row` widget is used to arrange two containers horizontally, and a `VerticalDivider` is placed between them. The `VerticalDivider` takes parameters like `color` and `thickness` to customize its appearance.
 
