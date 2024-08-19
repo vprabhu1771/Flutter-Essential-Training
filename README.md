@@ -23,6 +23,9 @@
 
 12. [Flutter main.dart](https://github.com/vprabhu1771/Flutter-Essential-Training/tree/main/12%20-%20Flutter%20main.dart)
 
+13. [Flutter Remove Debug Banner](https://github.com/vprabhu1771/Flutter-Essential-Training/tree/main/13%20-%20Flutter%20Remove%20Debug%20Banner)
+
+14. [Flutter AppBar Widget](https://github.com/vprabhu1771/Flutter-Essential-Training/tree/main/14%20-%20Flutter%20AppBar%20Widget)
 
 15. [Flutter Change App Name](https://github.com/vprabhu1771/Flutter-Essential-Training/tree/main/15%20-%20Flutter%20Change%20App%20Name)
 
