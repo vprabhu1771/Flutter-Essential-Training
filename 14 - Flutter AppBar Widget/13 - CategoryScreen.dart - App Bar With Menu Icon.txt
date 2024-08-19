@@ -16,7 +16,20 @@ class CategoryScreen extends StatelessWidget {
           )
         ],
         backgroundColor: Colors.orangeAccent,
-        
+        leading: IconButton(
+            icon: Icon(Icons.menu),
+            onPressed: () {
+              ScaffoldMessenger.of(context).showSnackBar(
+                SnackBar(
+                  content: Text("Menu Works"),
+                  action: SnackBarAction(
+                    label: 'Undo',
+                    onPressed: () {},
+                    ),
+                ),
+              );
+            },
+        ),
       ),
       body: Center(
         child: Text('Hello, Category Screen!'),

@@ -12,19 +12,18 @@ class CategoryScreen extends StatelessWidget {
         actions: <Widget>[
           IconButton( 
             icon: Icon(Icons.notifications),
-            onPressed: () {
-              ScaffoldMessenger.of(context).showSnackBar(
-                SnackBar(
-                  content: Text("Notifications Works"),
-                  action: SnackBarAction(
-                    label: 'Undo',
-                    onPressed: () {},
-                    ),
-                ),
-              );
-            },
+            onPressed: () {},
           )
         ],
+        backgroundColor: Colors.orangeAccent,
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.only(
+            topLeft: Radius.circular(25),
+            topRight: Radius.circular(25),
+            bottomLeft: Radius.circular(25),
+            bottomRight: Radius.circular(25),
+          )
+        ),
       ),
       body: Center(
         child: Text('Hello, Category Screen!'),

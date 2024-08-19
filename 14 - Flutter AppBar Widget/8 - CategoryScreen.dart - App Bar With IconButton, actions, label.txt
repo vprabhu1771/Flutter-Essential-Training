@@ -12,16 +12,10 @@ class CategoryScreen extends StatelessWidget {
         actions: <Widget>[
           IconButton( 
             icon: Icon(Icons.notifications),
-            onPressed: () {},
-          )
-        ],
-        backgroundColor: Colors.orangeAccent,
-        leading: IconButton(
-            icon: Icon(Icons.menu),
             onPressed: () {
               ScaffoldMessenger.of(context).showSnackBar(
                 SnackBar(
-                  content: Text("Menu Works"),
+                  content: Text("Notifications Works"),
                   action: SnackBarAction(
                     label: 'Undo',
                     onPressed: () {},
@@ -29,7 +23,8 @@ class CategoryScreen extends StatelessWidget {
                 ),
               );
             },
-        ),
+          )
+        ],
       ),
       body: Center(
         child: Text('Hello, Category Screen!'),

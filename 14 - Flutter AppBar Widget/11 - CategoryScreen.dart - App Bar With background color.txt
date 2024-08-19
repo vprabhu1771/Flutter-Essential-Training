@@ -12,13 +12,11 @@ class CategoryScreen extends StatelessWidget {
         actions: <Widget>[
           IconButton( 
             icon: Icon(Icons.notifications),
-            onPressed: () {
-              ScaffoldMessenger.of(context).showSnackBar(
-                SnackBar(content: Text("Notifications Works")),
-              );
-            },
+            onPressed: () {},
           )
         ],
+        backgroundColor: Colors.orangeAccent,
+        
       ),
       body: Center(
         child: Text('Hello, Category Screen!'),
