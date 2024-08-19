@@ -35,6 +35,8 @@
 
 18. [Flutter Button Widgets](https://github.com/vprabhu1771/Flutter-Essential-Training/tree/main/18%20-%20Flutter%20Button%20Widgets)
 
+19. [Flutter ToggleButtons Widget](https://github.com/vprabhu1771/Flutter-Essential-Training/tree/main/19%20-%20Flutter%20ToggleButtons%20Widget)
+
 21. [Flutter VerticalDivider Widget](https://github.com/vprabhu1771/Flutter-Essential-Training/tree/main/21%20-%20Flutter%20VerticalDivider%20Widget)
 
 22. [Flutter Switch Widget](https://github.com/vprabhu1771/Flutter-Essential-Training/tree/main/22%20-%20Flutter%20Switch%20Widget)
