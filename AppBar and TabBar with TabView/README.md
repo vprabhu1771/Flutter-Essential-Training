@@ -1,23 +1,33 @@
 ```dart
 import 'package:flutter/material.dart';
+import 'package:untitled/screens/HomeScreen.dart';
 
-void main() => runApp(MyApp());
+void main() {
+  runApp(const MyApp());
+}
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: TabBarExample(),
+      home: HomeScreen(),
     );
   }
 }
+```
 
-class TabBarExample extends StatefulWidget {
+```dart
+import 'package:flutter/material.dart';
+
+class HomeScreen extends StatefulWidget {
   @override
-  _TabBarExampleState createState() => _TabBarExampleState();
+  _HomeScreenState createState() => _HomeScreenState();
 }
 
-class _TabBarExampleState extends State<TabBarExample> with SingleTickerProviderStateMixin {
+class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateMixin {
   late TabController _tabController;
 
   @override
@@ -62,3 +72,8 @@ class _TabBarExampleState extends State<TabBarExample> with SingleTickerProvider
   }
 }
 ```
+
+![Image](1.png)
+![Image](2.png)
+![Image](3.png)
+![Image](4.png)
