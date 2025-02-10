@@ -1,43 +1,39 @@
 ```dart
 import 'package:flutter/material.dart';
 
-class HomeScreen extends StatelessWidget {
-
+class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
 
+  @override
+  State<HomeScreen> createState() => _HomeScreenState();
+}
+
+class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Popup Menu Button Example'),
+        title: const Text("WhatsApp"),
         actions: [
+          IconButton(icon: const Icon(Icons.search), onPressed: () {}),
           PopupMenuButton<String>(
-            onSelected: (value) {
-              // Handle the selected value here
-              print('Selected: $value');
-            },
-            itemBuilder: (BuildContext context) {
-              return [
-                PopupMenuItem(
-                  value: 'Option 1',
-                  child: Text('Option 1'),
-                ),
-                PopupMenuItem(
-                  value: 'Option 2',
-                  child: Text('Option 2'),
-                ),
-                PopupMenuItem(
-                  value: 'Option 3',
-                  child: Text('Option 3'),
-                ),
-              ];
-            },
-          ),
+              onSelected: (value) {
+                print(value);
+              },
+              itemBuilder: (BuildContext context) {
+                return [
+                  PopupMenuItem(child: Text("New group"), value: "New group",),
+                  PopupMenuItem(child: Text("New broadcast"), value: "New broadcast",),
+                  PopupMenuItem(child: Text("Whatsapp Web"), value: "Whatsapp Web",),
+                  PopupMenuItem(child: Text("Starred messages"), value: "Starred messages",),
+                  PopupMenuItem(child: Text("Settings"), value: "Settings",),
+                ];
+              })
         ],
       ),
       body: Center(
-        child: Text('Press the menu button in the AppBar'),
-      )
+        child: Text("data"),
+      ),
     );
   }
 }
@@ -63,3 +59,6 @@ class MyApp extends StatelessWidget {
   }
 }
 ```
+
+![Image](1.png)
+![Image](2.png)
