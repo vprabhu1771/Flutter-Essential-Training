@@ -32,7 +32,7 @@ class Auth extends ChangeNotifier {
 
     try {
 
-      Dio.Response response = await dio().post('/sanctum/token', data: creds);
+      Dio.Response response = await dio().post(Constants.BASE_URL + Constants.LOGIN_ROUTE, data: creds);
 
       print(response.data);
 
@@ -59,7 +59,7 @@ class Auth extends ChangeNotifier {
       try {
 
         Dio.Response response = await dio().get(
-            '/user',
+            Constants.BASE_URL + Constants.USER_ROUTE,
             options: Dio.Options(headers: {'Authorization' : 'Bearer $token'})
         );
 
@@ -99,7 +99,7 @@ class Auth extends ChangeNotifier {
       print('logout started');
 
       Dio.Response response = await dio().get(
-          '/user/revoke',
+          Constants.BASE_URL + Constants.LOGOUT_ROUTE,
           options: Dio.Options(headers: {'Authorization' : 'Bearer $token'})
           );
 
