@@ -11,11 +11,11 @@ lib -> screens
 
 File Setup
 
-lib -> util -> Constants.dart
+lib -> utils -> Constants.dart
 
 lib -> services -> dio.dart
 
-lib -> services -> auth.dart
+lib -> services -> Auth.dart
 
 lib -> models -> User.dart
 
