@@ -1,6 +1,6 @@
 # 1 - Folder Setup
 
-lib -> util
+lib -> utils
 
 lib -> services
 
